@@ -10,7 +10,7 @@ public class SurvivorDbContext : DbContext
 
     protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
     {
-        optionsBuilder.UseSqlServer(@"server=LAPTOP-748G4HT2;database=PatikaCodeFirstDb2;Trusted_Connection=true;TrustServerCertificate=true");
+        optionsBuilder.UseSqlServer(@"server=LAPTOP-748G4HT2;database=Survivor;Trusted_Connection=true;TrustServerCertificate=true");
     }
     protected override void OnModelCreating(ModelBuilder modelBuilder)
     {
